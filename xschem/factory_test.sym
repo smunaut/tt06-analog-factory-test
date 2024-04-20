@@ -1,0 +1,46 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -130 -70 130 -70 {}
+L 4 -130 70 130 70 {}
+L 4 -130 -70 -130 70 {}
+L 4 130 -70 130 70 {}
+L 4 130 -40 150 -40 {}
+L 4 -150 -60 -130 -60 {}
+L 4 -150 -40 -130 -40 {}
+L 4 -150 -20 -130 -20 {}
+L 4 130 40 150 40 {}
+L 7 130 -60 150 -60 {}
+L 7 130 -20 150 -20 {}
+L 7 130 0 150 0 {}
+L 7 130 20 150 20 {}
+L 7 130 60 150 60 {}
+B 5 147.5 57.5 152.5 62.5 {name=VGND dir=inout sim_pinnumber=0}
+B 5 147.5 -62.5 152.5 -57.5 {name=VPWR dir=inout sim_pinnumber=1}
+B 5 -152.5 -22.5 -147.5 -17.5 {name=ena0_n dir=in sim_pinnumber=2}
+B 5 -152.5 -42.5 -147.5 -37.5 {name=ena1 dir=in sim_pinnumber=3}
+B 5 -152.5 -62.5 -147.5 -57.5 {name=ibias dir=in sim_pinnumber=4}
+B 5 147.5 37.5 152.5 42.5 {name=VGND_sense dir=out sim_pinnumber=5}
+B 5 147.5 -42.5 152.5 -37.5 {name=VPWR dir=out sim_pinnumber=6}
+B 5 147.5 17.5 152.5 22.5 {name=loopback[0] dir=inout sim_pinnumber=7}
+B 5 147.5 -2.5 152.5 2.5 {name=loopback[1] dir=inout sim_pinnumber=8}
+B 5 147.5 -22.5 152.5 -17.5 {name=loopback[2] dir=inout sim_pinnumber=9}
+T {@symname} -72 -6 0 0 0.3 0.3 {}
+T {@name} 135 -82 0 0 0.2 0.2 {}
+T {VPWR} 125 -64 0 1 0.2 0.2 {}
+T {VPWR_sense} 125 -44 0 1 0.2 0.2 {}
+T {loopback[2]} 125 -24 0 1 0.2 0.2 {}
+T {ibias} -125 -64 0 0 0.2 0.2 {}
+T {loopback[1]} 125 -4 0 1 0.2 0.2 {}
+T {loopback[0]} 125 16 0 1 0.2 0.2 {}
+T {ena1} -125 -44 0 0 0.2 0.2 {}
+T {ena0_n} -125 -24 0 0 0.2 0.2 {}
+T {VGND_sense} 125 36 0 1 0.2 0.2 {}
+T {VGND} 125 56 0 1 0.2 0.2 {}
