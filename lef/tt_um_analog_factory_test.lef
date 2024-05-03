@@ -36,7 +36,7 @@ MACRO tt_um_analog_factory_test
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 156.560 0.000 157.160 1.000 ;
+        RECT 156.410 0.000 157.310 1.000 ;
     END
   END ua[0]
   PIN ua[1]
@@ -45,7 +45,7 @@ MACRO tt_um_analog_factory_test
     ANTENNADIFFAREA 35.489597 ;
     PORT
       LAYER met4 ;
-        RECT 134.480 0.000 135.080 1.000 ;
+        RECT 134.330 0.000 135.230 1.000 ;
     END
   END ua[1]
   PIN ua[2]
@@ -54,7 +54,7 @@ MACRO tt_um_analog_factory_test
     ANTENNADIFFAREA 11.599999 ;
     PORT
       LAYER met4 ;
-        RECT 112.400 0.000 113.000 1.000 ;
+        RECT 112.250 0.000 113.150 1.000 ;
     END
   END ua[2]
   PIN ua[3]
@@ -62,7 +62,7 @@ MACRO tt_um_analog_factory_test
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 90.320 0.000 90.920 1.000 ;
+        RECT 90.170 0.000 91.070 1.000 ;
     END
   END ua[3]
   PIN ua[4]
@@ -70,7 +70,7 @@ MACRO tt_um_analog_factory_test
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 68.240 0.000 68.840 1.000 ;
+        RECT 68.090 0.000 68.990 1.000 ;
     END
   END ua[4]
   PIN ua[5]
@@ -78,7 +78,7 @@ MACRO tt_um_analog_factory_test
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 46.160 0.000 46.760 1.000 ;
+        RECT 46.010 0.000 46.910 1.000 ;
     END
   END ua[5]
   PIN ua[6]
@@ -86,7 +86,7 @@ MACRO tt_um_analog_factory_test
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 24.080 0.000 24.680 1.000 ;
+        RECT 23.930 0.000 24.830 1.000 ;
     END
   END ua[6]
   PIN ua[7]
@@ -94,7 +94,7 @@ MACRO tt_um_analog_factory_test
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 2.000 0.000 2.600 1.000 ;
+        RECT 1.850 0.000 2.750 1.000 ;
     END
   END ua[7]
   PIN ui_in[0]
@@ -520,15 +520,13 @@ MACRO tt_um_analog_factory_test
         RECT 1.500 4.600 4.500 5.000 ;
         RECT 6.900 4.600 157.610 221.160 ;
         RECT 1.500 1.400 157.610 4.600 ;
-        RECT 1.500 0.000 1.600 1.400 ;
-        RECT 3.000 0.000 23.680 1.400 ;
-        RECT 25.080 0.000 45.760 1.400 ;
-        RECT 47.160 0.000 67.840 1.400 ;
-        RECT 69.240 0.000 89.920 1.400 ;
-        RECT 91.320 0.000 112.000 1.400 ;
-        RECT 113.400 0.000 134.080 1.400 ;
-        RECT 135.480 0.000 156.160 1.400 ;
-        RECT 157.560 0.000 157.610 1.400 ;
+        RECT 3.150 1.000 23.530 1.400 ;
+        RECT 25.230 1.000 45.610 1.400 ;
+        RECT 47.310 1.000 67.690 1.400 ;
+        RECT 69.390 1.000 89.770 1.400 ;
+        RECT 91.470 1.000 111.850 1.400 ;
+        RECT 113.550 1.000 133.930 1.400 ;
+        RECT 135.630 1.000 156.010 1.400 ;
   END
 END tt_um_analog_factory_test
 END LIBRARY
