@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "TT06 Analog Factory Test"
+  title:        "TT07 Analog Factory Test"
   author:       "Sylvain Munaut"
   discord:      "246tnt"
-  description:  "Test structures for TT06 analog support"
+  description:  "Test structures for TT07 analog support"
   language:     "Analog"
   clock_hz:     0
 
